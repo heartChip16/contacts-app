@@ -17,7 +17,7 @@ export default function ContactList({ searchText }) {
             return <li key={value} css={css`margin:5px;`}>
                 <NavLink css={css`text-decoration: none; width: 100%;display:block;padding: 2px; color: teal;
                   &.active {
-                    background-color: teal;
+                    ${'' /* background-color: teal; */}
                     color: white;
                   }
                 `} to={`/contacts/${value}`}>
